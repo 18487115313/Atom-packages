@@ -1,0 +1,79 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-react-proptypes-autocomplete/versions/0.2.2/tarball",
+  "_id": "atom-react-proptypes-autocomplete@0.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-zl1poLhw8l0OHT4KMSM4VWOX3JfP7Yl8dMFQWB6t67HKv8YpmfbiEtPos2vLlCxtH+1hK5FieWDigOS+lfaKYw==",
+  "_location": "/atom-react-proptypes-autocomplete",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-react-proptypes-autocomplete/versions/0.2.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-react-proptypes-autocomplete/versions/0.2.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-react-proptypes-autocomplete/versions/0.2.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-react-proptypes-autocomplete/versions/0.2.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-react-proptypes-autocomplete/versions/0.2.2/tarball",
+  "_shasum": "83d13c125ffb39060c77861b08cad450c37e5e7d",
+  "_spec": "https://www.atom.io/api/packages/atom-react-proptypes-autocomplete/versions/0.2.2/tarball",
+  "_where": "C:\\Users\\丁平\\AppData\\Local\\Temp\\apm-install-dir-119220-30160-mz92e9.04el",
+  "author": {
+    "name": "Dan Green-Leipciger",
+    "url": "https://github.com/dangreenisrael"
+  },
+  "bugs": {
+    "url": "https://github.com/dangreenisrael/atom-react-proptypes-autocomplete/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "ramda": "^0.25.0",
+    "react-docgen": "^2.20.1",
+    "redux": "^3.7.2"
+  },
+  "deprecated": false,
+  "description": "Autocomplete+ provider for React PropTypes - no setup required",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^23.0.0-alpha.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jest": "^22.4.2",
+    "prettier": "^1.11.1",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "homepage": "https://github.com/dangreenisrael/atom-react-proptypes-autocomplete#readme",
+  "jest": {
+    "setupTestFrameworkScriptFile": "./test-data/test-setup.js"
+  },
+  "keywords": [
+    "proptypes",
+    "react",
+    "autocomplete"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "atom-react-proptypes-autocomplete",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangreenisrael/atom-react-proptypes-autocomplete.git"
+  },
+  "scripts": {
+    "lint": "eslint lib test-data",
+    "test": "jest"
+  },
+  "version": "0.2.2"
+}

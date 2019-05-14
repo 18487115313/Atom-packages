@@ -1,0 +1,90 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-ternjs/versions/0.18.3/tarball",
+  "_id": "atom-ternjs@0.18.3",
+  "_inBundle": false,
+  "_integrity": "sha512-h0fKZHNauMfXLiQj6msgFAwqzRDXmDiJrL4Mp8eFhBiP6nqoGliP+yDkNEfbG3Nk+SlkucO6pUhkt/XdxrUOVg==",
+  "_location": "/atom-ternjs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-ternjs/versions/0.18.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-ternjs/versions/0.18.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-ternjs/versions/0.18.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-ternjs/versions/0.18.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-ternjs/versions/0.18.3/tarball",
+  "_shasum": "bfaf0b78f2083e2b3c150d7f75facf4b8c3a903c",
+  "_spec": "https://www.atom.io/api/packages/atom-ternjs/versions/0.18.3/tarball",
+  "_where": "C:\\Users\\丁平\\AppData\\Local\\Temp\\apm-install-dir-119022-7660-whx4b3.9ud0e",
+  "activationCommands": {
+    "atom-workspace": [
+      "atom-ternjs:openConfig"
+    ]
+  },
+  "activationHooks": [
+    "language-javascript:grammar-used",
+    "language-babel:grammar-used",
+    "language-vue:grammar-used"
+  ],
+  "bugs": {
+    "url": "https://github.com/tststs/atom-ternjs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "event-kit": "^2.2.0",
+    "glob": "3",
+    "loophole": "^1.1.0",
+    "minimatch": "^3.0.3",
+    "node-uuid": "1.4.7",
+    "resolve-from": "^2.0.0",
+    "tern": "^0.21.0",
+    "underscore-plus": "^1.6.6",
+    "uuid": "^3.0.0"
+  },
+  "deprecated": false,
+  "description": "JavaScript code intelligence for atom with Tern. Adds support for ES5, ES6 (JavaScript 2015), Node.js, jQuery & Angular. Extendable via plugins. Uses suggestion provider by autocomplete-plus.",
+  "devDependencies": {
+    "babel-eslint": "6.0.5",
+    "eslint": "^2.13.1",
+    "eslint-plugin-babel": "3.3.0"
+  },
+  "engines": {
+    "atom": ">=1.13.0"
+  },
+  "homepage": "https://github.com/tststs/atom-ternjs#readme",
+  "keywords": [
+    "javascript",
+    "autocomplete-plus",
+    "autocomplete",
+    "node",
+    "es6",
+    "javascript-2015",
+    "jquery",
+    "tern"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-ternjs",
+  "name": "atom-ternjs",
+  "private": false,
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    },
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "provideHyperclick"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tststs/atom-ternjs.git"
+  },
+  "version": "0.18.3"
+}

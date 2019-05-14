@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/react-autocomplete/versions/1.2.0/tarball",
+  "_id": "react-autocomplete@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-UqXRfzJIn78GQ+cW1JfU4QX35cpfI+oYWy9h4/xicGHMcO5gDPCyvmcx4GTU7qgzeJNuzS+BnLfu46KOLnKmJg==",
+  "_location": "/react-autocomplete",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/react-autocomplete/versions/1.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/react-autocomplete/versions/1.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/react-autocomplete/versions/1.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/react-autocomplete/versions/1.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/react-autocomplete/versions/1.2.0/tarball",
+  "_shasum": "64b04064140461f3f9da24182ea6aec678ccefdd",
+  "_spec": "https://www.atom.io/api/packages/react-autocomplete/versions/1.2.0/tarball",
+  "_where": "C:\\Users\\丁平\\AppData\\Local\\Temp\\apm-install-dir-119220-3844-13628ik.rqkl",
+  "bugs": {
+    "url": "https://github.com/c0d3er/react-autocomplete/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Auto completing react component lifecycles",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/c0d3er/react-autocomplete#readme",
+  "keywords": [
+    "react",
+    "autocomplete",
+    "es6",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "./lib/react-autocomplete",
+  "name": "react-autocomplete",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0d3er/react-autocomplete.git"
+  },
+  "version": "1.2.0"
+}

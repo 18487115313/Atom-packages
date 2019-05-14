@@ -1,0 +1,66 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@js-grammar-highlight: @background-color-info;
+@js-grammar-padding-unit: 8px;
+@atom-editor-tab-height: 36px;
+
+.atom-js-grammar {
+	max-width: 30%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: calc(~"100% - @{atom-editor-tab-height}");
+	overflow: hidden;
+	background-color: @app-background-color;
+	padding: 0 @js-grammar-padding-unit;
+
+	&.invisible {
+		display: none;
+	}
+
+	atom-panel {
+		overflow: auto;
+		max-height: 100%;
+	}
+
+	.title {
+		font-size: 1.5em;
+		padding: 5px 0;
+		white-space: nowrap;
+	}
+
+	.indent {
+		margin-left: 1em;
+		padding: 6px;
+	}
+
+	.list-item {
+		cursor: pointer;
+		border-left: 0 solid @js-grammar-highlight;
+		padding-left: 3px;
+		transition: border-left 0.2s linear;
+		font-size: 1.2em;
+		&:hover {
+			border-left: 3px solid @js-grammar-highlight;
+			background-color: @background-color-selected;
+			//color: @text-color-selected;
+		}
+	}
+
+	.close-button {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.list-nested-item {
+		.list-item {
+			&:before {
+				color: @text-color-highlight;
+			}
+		}
+	}
+}

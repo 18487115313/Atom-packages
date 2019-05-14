@@ -1,0 +1,70 @@
+{
+  "_from": "https://www.atom.io/api/packages/markdown-preview-plus/versions/2.4.16/tarball",
+  "_id": "markdown-preview-plus@2.4.16",
+  "_inBundle": false,
+  "_integrity": "sha512-R9XoEGus5m3+EnKZ3uP60O+p9svsd3GNA37gJyQ1P2yEtUkTqEtPlKvIcRyU3rmtM8918//JeWCaZfHMgV411g==",
+  "_location": "/markdown-preview-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/markdown-preview-plus/versions/2.4.16/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/markdown-preview-plus/versions/2.4.16/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/markdown-preview-plus/versions/2.4.16/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/markdown-preview-plus/versions/2.4.16/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/markdown-preview-plus/versions/2.4.16/tarball",
+  "_shasum": "f6a357434b8cc8f6574bb070aca1d4831585b25d",
+  "_spec": "https://www.atom.io/api/packages/markdown-preview-plus/versions/2.4.16/tarball",
+  "_where": "C:\\Users\\丁平\\AppData\\Local\\Temp\\apm-install-dir-11925-21152-kyonnx.haeym",
+  "bugs": {
+    "url": "https://github.com/atom-community/markdown-preview-plus/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "MathJax": "https://github.com/atom-community/MathJax/tarball/2.4.0-electron.0.2.0",
+    "atom-highlight": "^0.3.0",
+    "atom-space-pen-views": "^2.0.0",
+    "fs-plus": "^2.0.0",
+    "grim": "^1.2.1",
+    "lodash": "^3.10.1",
+    "markdown-it": "^5.1.0",
+    "markdown-it-lazy-headers": "^0.1.2",
+    "markdown-it-math": "https://github.com/atom-community/markdown-it-math/tarball/fix-table-pipe-parse-no-ascii",
+    "season": "^5.3",
+    "temp": "^0.8.1",
+    "underscore-plus": "^1.0.0",
+    "wrench": "^1.5.0"
+  },
+  "deprecated": false,
+  "description": "Markdown Preview + Community Features",
+  "deserializers": {
+    "MarkdownPreviewView": "createMarkdownPreviewView"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.9.7",
+    "jasmine-tagged": "^1.1.4"
+  },
+  "engines": {
+    "atom": ">=1.17.0 <2.0.0"
+  },
+  "homepage": "https://github.com/atom-community/markdown-preview-plus#readme",
+  "keywords": [
+    "markdown",
+    "maths",
+    "latex",
+    "commonmark",
+    "pandoc"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "markdown-preview-plus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-community/markdown-preview-plus.git"
+  },
+  "version": "2.4.16"
+}

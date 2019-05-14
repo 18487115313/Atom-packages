@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/react-es6-snippets/versions/0.3.0/tarball",
+  "_id": "react-es6-snippets@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-KGVbq1j23RYmwMI4WjwczlyROb5qwGlO+eKhLpzn5yK1LTqTfa7EPKV3IsGu83QlXFy7yDPUhul/oBSGddQrLA==",
+  "_location": "/react-es6-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/react-es6-snippets/versions/0.3.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/react-es6-snippets/versions/0.3.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/react-es6-snippets/versions/0.3.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/react-es6-snippets/versions/0.3.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/react-es6-snippets/versions/0.3.0/tarball",
+  "_shasum": "3c8a79b548ebf705a5f8108a2c7160c682cb660a",
+  "_spec": "https://www.atom.io/api/packages/react-es6-snippets/versions/0.3.0/tarball",
+  "_where": "C:\\Users\\丁平\\AppData\\Local\\Temp\\apm-install-dir-119220-27824-1dpxe21.72ug",
+  "bugs": {
+    "url": "https://github.com/netguru/atom-react-es6-snippets/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "React ES6 snippets for atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/netguru/atom-react-es6-snippets#readme",
+  "keywords": [
+    "react",
+    "ES6",
+    "babel",
+    "snippets"
+  ],
+  "license": "MIT",
+  "name": "react-es6-snippets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netguru/atom-react-es6-snippets.git"
+  },
+  "version": "0.3.0"
+}

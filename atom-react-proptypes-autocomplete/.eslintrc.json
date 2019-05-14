@@ -1,0 +1,10 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "strict": 0,
+    "no-unused-vars": "error",
+    "no-console": "error"
+  }
+}
